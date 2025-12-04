@@ -1,110 +1,118 @@
+⚽ Player Injuries & Team Performance Dashboard
 
-# ⚽ Player Injuries & Team Performance Dashboard
+Mathematics for AI – II • CRS: Artificial Intelligence
 
-## Overview
+⸻
 
-This project is part of the **Mathematics for AI – II (Artificial Intelligence)** course.
+📌 Overview
 
-It analyses the relationship between **player injuries** and **team performance** over multiple seasons using Python and presents the insights through an interactive **Streamlit dashboard**.
+This project examines how player injuries influence team performance in professional football. Using Python for data preprocessing and analysis, and Streamlit for deployment, the dashboard provides actionable insights for coaches, analysts, and technical directors.
 
-The dashboard is designed for **technical directors, sports analysts, and coaches** to:
+The analysis explores how injuries affect:
+	•	Match outcomes
+	•	Goal difference
+	•	Player performance before and after recovery
+	•	Injury concentration across months and clubs
+	•	Relationship between player age and recovery impact
 
-- Understand how injuries affect match outcomes and points.
-- Identify which clubs suffer the most during injury periods.
-- Track player performance before and after injuries.
-- Detect injury clusters across months and clubs.
-- Explore the relationship between player age and performance change.
+The final dashboard is interactive, user-friendly, and designed to support data-driven decision-making for sports management.
 
----
+⸻
 
-## Scenario
+🎯 Scenario Selected
 
-**Scenario 1: Player Injuries and Team Performance Dashboard**
+Scenario 1 — Player Injuries & Team Performance Dashboard
 
-FootLens Analytics has acquired a dataset of player injuries and team performance.
-As a Junior Sports Data Analyst, you must build an interactive dashboard that links injuries with team results and player ratings.
+FootLens Analytics has acquired a detailed dataset covering football player injuries and match performance metrics. As a Junior Sports Data Analyst, your role is to uncover how injuries affect:
+	•	Team results
+	•	Player performance trajectories
+	•	Squad planning and rotation
+	•	Training intensity and recovery management
 
----
+This dashboard helps stakeholders visualize patterns, identify high-impact injuries, and optimize future strategies.
 
-## Key Features
+⸻
 
-- 📊 **Team Performance Drop Index** during injury periods.
-- 📈 **Player Performance Timeline** (rating before, during and after injury).
-- 🔥 **Heatmap of Injury Frequency** across months and clubs.
-- 🎯 **Age vs Rating Change Scatter Plot** (impact of age on comeback).
-- 🏆 **Comeback Leaderboard**: players with the biggest post-injury improvement.
-- 🧮 Filters by **team** and **player**.
-- 🧾 Option to view **raw cleaned data**.
+⭐ Key Features of the Dashboard
 
----
+1. 📉 Team Performance Drop Index
 
-## Tech Stack
+Identifies clubs most affected during injury periods by comparing pre-injury vs missed-match goal differences.
 
-- **Python**
-- **Pandas**, **NumPy**
-- **Plotly Express**
-- **Streamlit**
+2. 📈 Player Performance Timeline
 
----
+Shows individual player ratings before and after injury across sequential matches.
 
-## Folder Structure
+3. 🔥 Injury Frequency Heatmap
 
-```text
+Reveals monthly injury clusters across different clubs.
+
+4. 🎯 Age vs Rating Change Scatter Plot
+
+Analyzes whether age influences recovery and performance drops.
+
+5. 🏆 Comeback Leaderboard
+
+Ranks players by positive rating improvements after returning from injury.
+
+6. 🎛️ Interactive Filters
+
+Filter by team and player for focused analysis.
+
+⸻
+
+🧠 Tech Stack
+	•	Python 3
+	•	Pandas, NumPy — data preprocessing
+	•	Plotly Express — visualizations
+	•	Streamlit — dashboard and deployment
+	•	GitHub — version control & submission
+📂 Project Folder Structure
 .
-├── app.py
-├── injuries.csv              # your dataset (not included here)
-├── requirements.txt
-└── README.md
-```
+├── app.py                  # Main Streamlit dashboard file
+├── injuries.csv            # Dataset (renamed to match project)
+├── requirements.txt        # Python dependencies
+└── README.md               # Documentation (this file)
 
----
 
-## How to Run Locally
+🖥️ Running the Dashboard Locally
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-2. Install dependencies:
-
-```bash
+git clone 
+https://github.com/iblamehemer/IADAI102-2405426-HemerPandya-/tree/main
 pip install -r requirements.txt
-```
+injuries.csv
 
-3. Add your dataset (e.g., `injuries.csv`) into the project folder.
-
-4. Run the Streamlit app:
-
-```bash
 streamlit run app.py
-```
 
-5. Open the URL shown in the terminal (usually `http://localhost:8501`).
+🚀 Streamlit Cloud Deployment
 
----
+Live App URL:
+👉 https://8crgf4pntr53g5gcbnb55x.streamlit.app
 
-## Deployment on Streamlit Cloud
+Deployment Steps (already completed):
+	1.	Push repository to GitHub
+	2.	Connect Streamlit Cloud to the repository
+	3.	Select main file (app.py)
+	4.	Deploy
 
-1. Push this repository to GitHub.
-2. Go to Streamlit Community Cloud.
-3. Click **New app** → select your repo.
-4. Choose:
-   - **Main file**: `app.py`
-   - **Branch**: `main` or `master`
-5. Deploy.
+Your app is now publicly accessible.
 
+⸻
 
-> **Live App:** https://8crgf4pntr53g5gcbnb55x.streamlit.app
+👤 Author
+	•	Student Name: Hemer Pandya
+	•	Candidate Registration Number: N/A
+	•	CRS Name: Artificial Intelligence
+	•	Course Name: Mathematics for AI – II
+	•	School: Udgam School for Children
 
----
+⸻
 
-## Author (Fill this in)
+🏁 Final Notes
 
-- **Student Name**: Hemer Pandya 
-- **Candidate Registration Number**: n/a
-- **CRS Name**: Artificial Intelligence  
-- **Course Name**: Mathematics for AI – II  
-- **School Name**: udgam school for children 
+This dashboard demonstrates:
+	•	Strong understanding of football analytics
+	•	Correct preprocessing and feature engineering
+	•	Insightful EDA aligned with research questions
+	•	High-quality interactive visualizations
+	•	Successful Streamlit deployment
