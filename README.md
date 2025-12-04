@@ -96,16 +96,15 @@ streamlit run app.py
    - **Branch**: `main` or `master`
 5. Deploy.
 
-Add the live link here:
 
-> **Live App:** https://your-streamlit-app-link.streamlit.app/
+> **Live App:** https://8crgf4pntr53g5gcbnb55x.streamlit.app
 
 ---
 
 ## Author (Fill this in)
 
-- **Student Name**: `<Your Name>`
-- **Candidate Registration Number**: `<Your Number>`
+- **Student Name**: Hemer Pandya 
+- **Candidate Registration Number**: n/a
 - **CRS Name**: Artificial Intelligence  
 - **Course Name**: Mathematics for AI – II  
-- **School Name**: `<Your School Name>`
+- **School Name**: udgam school for children 
